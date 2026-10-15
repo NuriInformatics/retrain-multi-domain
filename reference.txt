@@ -1,0 +1,12 @@
+# Journal Reference
+
+Title: Automatic identification of self-admitted technical debt from four different sources
+Authors: Yikun Li, Mohamed Soliman, Paris Avgeriou
+Journal: Empirical Software Engineering (EMSE), 2023, Vol. 28, No. 3, Article 65
+DOI: https://doi.org/10.1007/s10664-023-10297-9
+Dataset Repository: https://github.com/yikun-li/satd-different-sources-data
+
+# Key Methods & Baselines
+- Multitask Text-CNN (MT-Text-CNN) & Single-Task Text-CNN (Kim, 2014)
+- Traditional Machine Learning: Logistic Regression, Support Vector Machine (SVC), Random Forest
+- Evaluation: Stratified 10-Fold Cross-Validation across 4 domains (Code Comments, Commit Messages, Pull Requests, Issues)
