@@ -14,7 +14,6 @@ Fokus utama:
 ├── notebook/          # Jupyter notebook eksperimen & reproduksi model
 ├── reference.txt      # Referensi jurnal dan paper acuan
 ├── summary.md         # Ringkasan hasil reproduksi (WIP)
-├── STEP.md            # Dokumentasi panduan teknis reproduksi
 └── README.md          # Dokumentasi ringkas proyek
 ```
 
