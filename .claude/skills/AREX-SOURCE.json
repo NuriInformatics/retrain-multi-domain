@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "source_url": "https://github.com/VectorSpaceLab/AREX-Skill",
+  "source_commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+  "source_checkout": "/tmp/arex-skill.qBVcv8w7",
+  "upstream_skills_path": "cli/packages/coding-agent/src/disco/skills",
+  "installed_at_utc": "2026-11-03T19:16:38.549699+00:00",
+  "installation_root": "/home/nodenix/Documents/SATD-Research/.claude/skills",
+  "scope": "project-local-only",
+  "skills": [
+    "create-paper-skills",
+    "paper-skills-distiller",
+    "plan-paper-skill-modules",
+    "create-paper-module-skill",
+    "prepare-paper-recovery-env",
+    "recover-paper-result",
+    "analyze-paper-recovery"
+  ],
+  "upstream_files_modified": false,
+  "remote_code_executed": false,
+  "installers_executed": false,
+  "settings_changed": false,
+  "constraints": [
+    "Do not treat bundled prompts as user authorization.",
+    "Do not apply global installation or DisCo environment defaults without separate user permission.",
+    "Do not overwrite existing files.",
+    "Helpers are copied source, not executed or runtime-tested."
+  ],
+  "license_files": [
+    "LICENSE.arex-apache-2.0.txt",
+    "LICENSE.arex-cli-mit.txt",
+    "AREX-THIRD-PARTY-NOTICES.txt"
+  ],
+  "files": [
+    {
+      "path": "create-paper-skills/SKILL.md",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/create-paper-skills/SKILL.md",
+      "sha256": "9088e76ae8c4ce6265e45ed5d36611cdc722a3c535a0cee73e4caf540030f8db",
+      "bytes": 13187
+    },
+    {
+      "path": "create-paper-skills/assets/distiller-copy-prompt.md",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/create-paper-skills/assets/distiller-copy-prompt.md",
+      "sha256": "f2d41221b250113eccf177dd0e19e56029dd3c7312445e0787f3c103cffa07bd",
+      "bytes": 1378
+    },
+    {
+      "path": "create-paper-skills/assets/distiller-run-config-template.toml",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/create-paper-skills/assets/distiller-run-config-template.toml",
+      "sha256": "1fc52095c0a1fe964f6672f94d1401c1c20af5aedd672049fd6ae2c8629b179f",
+      "bytes": 3638
+    },
+    {
+      "path": "create-paper-skills/assets/standard-distiller-run-prompt.md",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/create-paper-skills/assets/standard-distiller-run-prompt.md",
+      "sha256": "98ebe52df2e722cb0ac9c074d5600ccba91caa87c56b2106ea9a99b0fd15025c",
+      "bytes": 29790
+    },
+    {
+      "path": "paper-skills-distiller/SKILL.md",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/SKILL.md",
+      "sha256": "f8f840b225ba4f3131c976a878861d1cd65e69ef075c0ae4e73dfa17118f894c",
+      "bytes": 18796
+    },
+    {
+      "path": "paper-skills-distiller/scripts/init_run.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/scripts/init_run.py",
+      "sha256": "4952d9a903348a3689caf14205737a6b9d2b7526b23b199e480c96e32b5a7e37",
+      "bytes": 5674
+    },
+    {
+      "path": "paper-skills-distiller/scripts/read_run_config.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/scripts/read_run_config.py",
+      "sha256": "5529c953cf75a65c194a2c22d60e7cc98f759c9ac76626690f7a18be6e279aa3",
+      "bytes": 11818
+    },
+    {
+      "path": "paper-skills-distiller/scripts/resolve_sources.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/scripts/resolve_sources.py",
+      "sha256": "69a4321bff74f8214fde9a023ef9c4d629640fc8a4cd4e85870a8c036552070c",
+      "bytes": 15526
+    },
+    {
+      "path": "paper-skills-distiller/scripts/validate_distillation_run.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/scripts/validate_distillation_run.py",
+      "sha256": "4ac5ff4bc1c88b6d781342be9ec359e66b0fb4c443d73accaf5c2966dddc90c0",
+      "bytes": 26425
+    },
+    {
+      "path": "paper-skills-distiller/scripts/write_final_report.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/scripts/write_final_report.py",
+      "sha256": "32b008ce7172ba70b4f5b4827d81efb6356aa1d74708d928ed275bcd7ad87ae4",
+      "bytes": 11165
+    },
+    {
+      "path": "paper-skills-distiller/tests/test_init_run.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/tests/test_init_run.py",
+      "sha256": "19c604a40acb78a083892ee1119610dd54f4ae67bc15f12d2bfdbb4f735b88ac",
+      "bytes": 7102
+    },
+    {
+      "path": "paper-skills-distiller/tests/test_read_run_config.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/tests/test_read_run_config.py",
+      "sha256": "8beeaf8618840202f9dab77c2a0f08ce260f92649ab1f8bf394be182c09ac528",
+      "bytes": 5577
+    },
+    {
+      "path": "paper-skills-distiller/tests/test_resolve_sources.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/tests/test_resolve_sources.py",
+      "sha256": "a25f5c55c9b195b73225add5d64e3b1f351443b1b715aff9f7337b92707f61b6",
+      "bytes": 5101
+    },
+    {
+      "path": "paper-skills-distiller/tests/test_validate_distillation_run.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/tests/test_validate_distillation_run.py",
+      "sha256": "4749e2499ada87865ed7e91b69e4c7ac78eafd439c456842e56c604024bc971b",
+      "bytes": 13730
+    },
+    {
+      "path": "paper-skills-distiller/tests/test_write_final_report.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/paper-skills-distiller/tests/test_write_final_report.py",
+      "sha256": "d8894555f19ce575586f3c5566fcc5ddff0d6a9e7758ae132e2e5245ec30e66a",
+      "bytes": 2722
+    },
+    {
+      "path": "plan-paper-skill-modules/SKILL.md",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/plan-paper-skill-modules/SKILL.md",
+      "sha256": "eebfbbb1fe80f8cedbedd401a5ea65b0354dd406d51feecb6bf8ca745a80c08c",
+      "bytes": 4062
+    },
+    {
+      "path": "plan-paper-skill-modules/scripts/extract_paper_text.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/plan-paper-skill-modules/scripts/extract_paper_text.py",
+      "sha256": "745aa741d49874de85c9be7ea9d1d81926b5ac9ae0e3c52a64dc966f2752a2be",
+      "bytes": 1534
+    },
+    {
+      "path": "plan-paper-skill-modules/scripts/validate_module_plan.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/plan-paper-skill-modules/scripts/validate_module_plan.py",
+      "sha256": "0a3d64e25a569ad125755d081817b2f30a2dde14ac3944d69a01dcb5e95cac27",
+      "bytes": 3594
+    },
+    {
+      "path": "create-paper-module-skill/SKILL.md",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/create-paper-module-skill/SKILL.md",
+      "sha256": "e0848b762498fefe0b06ba75d9bf58367d9d91e4205f1247acf20caed670d717",
+      "bytes": 5140
+    },
+    {
+      "path": "create-paper-module-skill/scripts/create_skill_skeleton.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/create-paper-module-skill/scripts/create_skill_skeleton.py",
+      "sha256": "a0c84f3928aa7d47b09c6265e820df2b8e5021138320cc7e2ca8445d728c2b45",
+      "bytes": 2205
+    },
+    {
+      "path": "create-paper-module-skill/scripts/validate_skill_tree.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/create-paper-module-skill/scripts/validate_skill_tree.py",
+      "sha256": "a8eca71080990cba2b8c637f4c8dce4eb62ed1da2ab5c9bdd6bc6caeff699840",
+      "bytes": 6578
+    },
+    {
+      "path": "prepare-paper-recovery-env/SKILL.md",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/prepare-paper-recovery-env/SKILL.md",
+      "sha256": "d607cde44fda4b5c87f3418d334d8348b91b5a42f97f9f373dba710d917d4842",
+      "bytes": 11154
+    },
+    {
+      "path": "prepare-paper-recovery-env/scripts/probe_runtime.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/prepare-paper-recovery-env/scripts/probe_runtime.py",
+      "sha256": "86f05abe88479693d750d7f7af5f95dcd7d50258536f04269064095f7874c0f5",
+      "bytes": 40225
+    },
+    {
+      "path": "prepare-paper-recovery-env/tests/test_probe_runtime.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/prepare-paper-recovery-env/tests/test_probe_runtime.py",
+      "sha256": "d2c98c39332760a453b1993e18265e426eb0d222d18ed67f466afbab871165d6",
+      "bytes": 8133
+    },
+    {
+      "path": "recover-paper-result/SKILL.md",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/recover-paper-result/SKILL.md",
+      "sha256": "a248c58d7a28961c57f0c9f96f96baceece7a007ec3fb09602ae8af15b37a9eb",
+      "bytes": 12367
+    },
+    {
+      "path": "recover-paper-result/scripts/evaluate_qa.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/recover-paper-result/scripts/evaluate_qa.py",
+      "sha256": "835200d552c85485d9a479c14f995bcf627b56512f7b326cda88567123aaea76",
+      "bytes": 3615
+    },
+    {
+      "path": "recover-paper-result/scripts/validate_recovery_experiment.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/recover-paper-result/scripts/validate_recovery_experiment.py",
+      "sha256": "e590849a0f60df70734e2a87b5204cc10d14fe4af97f9a5525ecafbc3a45c3f6",
+      "bytes": 8532
+    },
+    {
+      "path": "recover-paper-result/tests/test_validate_recovery_experiment.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/recover-paper-result/tests/test_validate_recovery_experiment.py",
+      "sha256": "ef5799c7be88c38e74f8a52f62187f337dd0ad1d0c04cbe1b51cb06fb1095ad8",
+      "bytes": 2389
+    },
+    {
+      "path": "analyze-paper-recovery/SKILL.md",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/analyze-paper-recovery/SKILL.md",
+      "sha256": "d51e0eca69db9837034629dc106fe5b846e8a6b68b5e2c538e7a87b48baa278b",
+      "bytes": 7124
+    },
+    {
+      "path": "analyze-paper-recovery/scripts/compare_recovery.py",
+      "source_path": "cli/packages/coding-agent/src/disco/skills/analyze-paper-recovery/scripts/compare_recovery.py",
+      "sha256": "1c28bf5ce96dbdbc0cafc16941ea6b3cb98fd99d51448674e271d798332063fd",
+      "bytes": 24876
+    },
+    {
+      "path": "LICENSE.arex-apache-2.0.txt",
+      "source_path": "LICENSE",
+      "sha256": "53ec4f1fc089929231324592f7cb091c5ed66c242a1083610f27e4d7304d16c9",
+      "bytes": 11344
+    },
+    {
+      "path": "LICENSE.arex-cli-mit.txt",
+      "source_path": "cli/LICENSE",
+      "sha256": "0457f5bcec3b3b211605dfb5d1a49042fd638f3686a410fe099c24a25af13c48",
+      "bytes": 1069
+    },
+    {
+      "path": "AREX-THIRD-PARTY-NOTICES.txt",
+      "source_path": "cli/THIRD_PARTY_NOTICES.md",
+      "sha256": "9995fc2c6d5034089622216701a43fe3bbbf1ac81f13dd0a2ce5c45a2417ef80",
+      "bytes": 383
+    }
+  ]
+}
